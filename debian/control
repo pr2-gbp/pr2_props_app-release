@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-props-app
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-pr2-position-scripts, ros-indigo-roslib, ros-indigo-rospy, ros-indigo-std-srvs
+Homepage: http://ros.org/wiki/pr2_props
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-props-app
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-pr2-position-scripts, ros-indigo-roslib, ros-indigo-rospy, ros-indigo-std-srvs
+Description: Application files for running PR2 props
